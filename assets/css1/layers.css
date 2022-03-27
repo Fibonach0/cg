@@ -120,7 +120,7 @@ img {
     display: inline-block;
     background: #fff;
     width: 100%;
-    padding: 20px 0px;
+    padding: 0px 0px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -133,7 +133,7 @@ nav {
 }
 
 .logo {
-    width: 8.5%;
+    width: 15%;
     float: left;
     position: relative;
     box-sizing: border-box;
@@ -184,6 +184,7 @@ nav {
     margin: 10px 0 0 40px;
     opacity: 0;
     visibility: hidden;
+    cursor: pointer;
 }
 
 .menu-toggle::before {
@@ -1672,7 +1673,7 @@ button:focus {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .logo {
-        width: 12.5%;
+        width: 15%;
     }
 }
 

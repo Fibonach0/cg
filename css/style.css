@@ -7,6 +7,38 @@
 # General
 --------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*SBtn*/
+
+#myBtn {
+    text-align: center;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #be8e77;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/*EBtn*/
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
