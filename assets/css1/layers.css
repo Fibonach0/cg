@@ -919,7 +919,8 @@ nav {
     background: #e6793b;
 }
 
-.download {
+
+/* .download {
     color: #fff!important;
     line-height: 25px;
     padding: 11px;
@@ -937,13 +938,23 @@ nav {
     background-color: #222!important;
     color: #fff!important;
     text-decoration: none!important;
+} */
+
+.download::before {
+    left: 55px;
+    position: sticky;
+    margin: 10px 0px;
+    content: "\f56d";
+    color: #e6793b;
+    font-family: fontawesome;
+    font-size: 15px;
 }
 
 
 /* .download {
     display: inline-block;
     width: 100%;
-    margin: 10px 0px;
+    
     text-align: center;
 }
 
@@ -964,13 +975,7 @@ nav {
     border: 1px solid#e6793b;
 }
 
-.download::before {
-    position: absolute;
-    content: "\f56d";
-    color: #e6793b;
-    font-family: fontawesome;
-    font-size: 15px;
-}
+
 
 .download:nth-child(1)::before {
     color: #fff;
