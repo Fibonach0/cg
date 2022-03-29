@@ -12,7 +12,8 @@ function sendEmail() {
             To: 'ignacio.antu@gmail.com',
             From: email,
             Subject: subject,
-            Body: " Nombre: " + name + "<br>" +
+            Body: " Correo: " + email + "<br>" +
+                " Nombre: " + name + "<br>" +
                 "Consulta: " + text,
         })
         .then(function(message) {

@@ -869,6 +869,10 @@ nav {
     border: 1px solid#dd2a7b;
 }
 
+._xs_we_zs ol li:nth-child(4) {
+    border: 1px solid#e6793b;
+}
+
 ._xs_we_zs ol li::before {
     position: absolute;
     content: "\f09a";
@@ -887,9 +891,15 @@ nav {
     color: #dd2a7b;
 }
 
+._xs_we_zs ol li:nth-child(4)::before {
+    content: "\f56d";
+    color: #e6793b;
+}
+
 ._xs_we_zs ol li:hover:nth-child(2)::before,
 ._xs_we_zs ol li:hover:nth-child(1)::before,
-._xs_we_zs ol li:hover:nth-child(3)::before {
+._xs_we_zs ol li:hover:nth-child(3)::before,
+._xs_we_zs ol li:hover:nth-child(4)::before {
     color: #fff;
 }
 
@@ -904,6 +914,71 @@ nav {
 ._xs_we_zs ol li:hover:nth-child(3) {
     background: #dd2a7b;
 }
+
+._xs_we_zs ol li:hover:nth-child(4) {
+    background: #e6793b;
+}
+
+.download {
+    color: #fff!important;
+    line-height: 25px;
+    padding: 11px;
+    background-color: #eccfc1;
+    margin-right: 83%;
+    font-family: "Gotham", "Gotham B";
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 14px!important;
+}
+
+.download:hover,
+#gform_submit_button_1:hover {
+    background-color: #222!important;
+    color: #fff!important;
+    text-decoration: none!important;
+}
+
+
+/* .download {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.download ol li {
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    float: left;
+    border-radius: 50%;
+    line-height: 30px;
+    justify-content: center;
+    border: 1px solid#be8e77;
+    margin: 10px 8px 10px 0px;
+}
+
+.download ol li:nth-child(1) {
+    border: 1px solid#e6793b;
+}
+
+.download::before {
+    position: absolute;
+    content: "\f56d";
+    color: #e6793b;
+    font-family: fontawesome;
+    font-size: 15px;
+}
+
+.download:nth-child(1)::before {
+    color: #fff;
+}
+
+.download:hover:nth-child(1) {
+    background: #e6793b;
+} */
 
 ._mn_cd_we_vd .owl-nav {
     text-align: center;
@@ -974,7 +1049,7 @@ button:focus {
 }
 
 ._nd_er_io ol li::before,
-._nb_cd_er ul li:nth-child(3)::before {
+._nb_cd_er ul li:nth-child(4)::before {
     content: "\f095";
 }
 
@@ -1107,11 +1182,12 @@ button:focus {
     padding: 10px 0 0 30px;
 }
 
-._nb_cd_er ul li:nth-child(2)::before {
+._nb_cd_er ul li:nth-child(3)::before {
     content: "\f003";
 }
 
-._nb_cd_er ul li::before {
+._nb_cd_er ul li::before,
+_nb_cd_er ul li:nth-child(2)::before {
     content: "\f015";
     position: absolute;
     color: #d1cfcf;
